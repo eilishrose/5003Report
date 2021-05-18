@@ -1,4 +1,4 @@
-# 5003 Report: Site location problem
+# 5003 Report: Site Location Problem
 
 ## Software intention 
 
@@ -20,16 +20,15 @@ Initially I worked from the provided module materials and worked to get a user i
 ## Sources
 
 ### iPyWidgets
-Button styling - https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Styling.html
-IntSlider - https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html
+- Button styling - https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Styling.html
+- IntSlider - https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html
 
 ### MatPlotLib
-ColourMap styling - https://matplotlib.org/stable/gallery/color/colormap_reference.html
-Adding a map title - https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.title.html
+- ColourMap styling - https://matplotlib.org/stable/gallery/color/colormap_reference.html
+- Adding a map title - https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.title.html
 
 ###Other
-
-Adding in JS script to execute cells below button - https://stackoverflow.com/questions/32714783/ipython-run-all-cells-below-from-a-widget
+- Adding in JS script to execute cells below button - https://stackoverflow.com/questions/32714783/ipython-run-all-cells-below-from-a-widget
 
 ## Software design thought process
 
