@@ -24,7 +24,7 @@ I wanted to be able to set the position that the code runs from, as re-running a
 ### MatPlotLib
 - ColourMap styling: https://matplotlib.org/stable/gallery/color/colormap_reference.html
 - Adding a map title: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.title.html
-###Other
+### Other
 - Adding in JS script to execute cells below button - https://stackoverflow.com/questions/32714783/ipython-run-all-cells-below-from-a-widget
 
 ## Software development process followed
