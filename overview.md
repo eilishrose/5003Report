@@ -24,6 +24,7 @@ I wanted to be able to set the position that the code runs from, as re-running a
 ### MatPlotLib
 - ColourMap styling: https://matplotlib.org/stable/gallery/color/colormap_reference.html
 - Adding a map title: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.title.html
+
 ### Other
 - Adding in JS script to execute cells below button - https://stackoverflow.com/questions/32714783/ipython-run-all-cells-below-from-a-widget
 
@@ -32,9 +33,13 @@ I wanted to be able to set the position that the code runs from, as re-running a
 I initially started compiling the code within Spyder for testing purposes, working with the CSV import code used in the first assignment, however I hit some issues with the data type when importing, and decided on using NumPy instead to handle the data within the provided CSV files. Using NumPy, I was able to import the files with a smaller amount of code. 
 
 I then looked at how I would display the data. I initially decided on using Tkinter to create a pop out window and would then add the variable linked scrollbar. Looking through the Tkinter documentation, I found this would have been very clunky, and decided to look at other ways of displaying the data and implementing scrollbars. 
+
 I moved the code out of Spyder and started working directly in Jupyter Notebook. I transferred my code over and decided on using the iPyWidgets scrollbars. The values created by the scrollbars could be easily referenced, and they were easy to edit and add into the notebook using the iPyWidgets documentation. 
+
 The calculations for the weightings are very simple, multiplying each value in the layer by the slider value, and adding these three resulting layers together. Then the layer is normalised by dividing the total output by 100, to bring the values back down to between 0 and 255. One issue that I came across which I could not find a good solution for was the issue of adding three arrays together. The NumPy sum() could only take in three arguments. 
+
 Instead of continuing to use the Tkinter pop out for the map, I decided on using the 'in cell' display of matplotlib, to match the sliders that were also integrated into the notebook.
+
 As mentioned in the 'Issues' section, I added in a small piece of code to run the cells below the cell that had the button in, preserving the slider values and avoiding running the cells after the slider individually. 
 
 
