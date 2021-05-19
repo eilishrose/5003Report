@@ -9,10 +9,13 @@ The notebook also contains code at the end of the notebook that re-imports the o
 - ipywidgets - https://ipywidgets.readthedocs.io/en/latest/user_install.html
 
 ### Required files
-- 5003Reportv3.ipynb
+- 5003 Report v3.ipynb
 - geology.csv
 - transport.csv
 - population.csv
+
+### Usage
+All three files and the .ipynb file need to be downloaded to the same folder to run. 
 
 ### Support
 
